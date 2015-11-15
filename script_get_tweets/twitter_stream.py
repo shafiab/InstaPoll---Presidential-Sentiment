@@ -101,10 +101,10 @@ class TwitterStream(TwythonStreamer):
         sys.stderr.write(str(status_code) + '\n')
         exit(1)
 
-APP_KEY = ""
-APP_SECRET = ""
-OAUTH_TOKEN = ""
-OAUTH_TOKEN_SECRET = ""
+APP_KEY = "DbFbcHGA1HaXayTyJojsN3FUr"
+APP_SECRET = "l763JpVgwadAFxwbLYQTk3TpEBMNAkBiiMGotgx6NnUfJB8d8b"
+OAUTH_TOKEN = "63840749-hK5n6afgYl4j3RKS1vDUvwDVhesDxPiBb1m26cbGy"
+OAUTH_TOKEN_SECRET = "ALM1mcW6Skfz9h1XVHb1TtjzunzzkEETpBGp8TDtQ7qR1"
 
 stream = TwitterStream(APP_KEY, APP_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
 
